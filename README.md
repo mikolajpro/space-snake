@@ -1,4 +1,4 @@
-#Snake Game
+# snake-game
 # [PL] Gra Snake napisana przy wykorzystaniu JavaFX.
 Implementacje:
 - Poruszanie się przy pomocy WSAD
