@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.shape.Rectangle?>
+
+<StackPane fx:id="stackPane"
+           stylesheets="@prepareGame.css"
+           xmlns="http://javafx.com/javafx"
+           xmlns:fx="http://javafx.com/fxml"
+           fx:controller="main.controller.PrepareGameController"
+           prefHeight="600.0" prefWidth="900.0">
+
+    <Rectangle fx:id="rectangle" height="600.0" width="900.0"/>
+
+    <VBox fx:id="vBox" alignment="CENTER">
+        <Text text="↓ ENTER BOARD SIZE ↓" fill="white"/>
+        <GridPane fx:id="gridPane">
+
+            <columnConstraints>
+            </columnConstraints>
+            <columnConstraints>
+
+            </columnConstraints>
+        </GridPane>
+    </VBox>
+</StackPane>

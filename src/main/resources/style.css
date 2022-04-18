@@ -1,0 +1,9 @@
+@font-face {
+    src: url("/main/font/VCR_OSD_MONO_1.ttf");
+}
+
+#stackPane{
+    -fx-background-image: url("/main/image/backgroundImage.jpg");
+    -fx-background-size: cover;
+    -fx-font-family: "VCR OSD Mono";
+}

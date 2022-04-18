@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.shape.Rectangle?>
+
+<StackPane fx:id="stackPane"
+           stylesheets="@highScores.css"
+           xmlns="http://javafx.com/javafx"
+           xmlns:fx="http://javafx.com/fxml"
+           fx:controller="main.controller.HighScoresController"
+           minHeight="600.0" minWidth="900.0">
+
+    <Rectangle fx:id="rectangle" height="600.0" width="900.0"/>
+
+    <VBox fx:id="vBox" alignment="CENTER" spacing="20">
+        <TableView fx:id="tableView" maxWidth="602" editable="false">
+            <columns>
+                <TableColumn fx:id="tableColumnScore" editable="false" prefWidth="300" text="SCORE" />
+                <TableColumn fx:id="tableColumnName" editable="false" prefWidth="300" text="NAME"/>
+            </columns>
+        </TableView>
+        <Button fx:id="menu" text="MENU" onMouseClicked="#backToMenu"/>
+    </VBox>
+
+</StackPane>
+

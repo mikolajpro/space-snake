@@ -1,0 +1,11 @@
+@import url("style.css");
+
+#stackPane{
+    -fx-font-family: "VCR OSD Mono";
+    -fx-font-size: 55;
+}
+
+#rectangle{
+    -fx-fill: black;
+    -fx-opacity: 0.5;
+}

@@ -1,0 +1,32 @@
+@import url("style.css");
+
+#stackPane{
+    -fx-background-image: url("/main/image/backgroundImage.jpg");
+    -fx-background-size: cover;
+}
+
+#rectangle{
+    -fx-fill: black;
+    -fx-opacity: 0.5;
+}
+
+.button{
+    -fx-min-width: 400;
+    -fx-min-height: 100;
+
+    -fx-background-color: transparent;
+    -fx-border-color: white;
+    -fx-border-width: 5;
+
+    -fx-text-fill: white;
+    -fx-font-family: "VCR OSD Mono";
+    -fx-font-size: 50;
+}
+
+.button:hover{
+    -fx-background-color: #72ff00;
+    -fx-text-fill: black;
+    -fx-cursor: hand;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}

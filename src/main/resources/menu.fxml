@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.shape.Rectangle?>
+
+<StackPane fx:id="stackPane"
+           stylesheets="@menu.css"
+           xmlns="http://javafx.com/javafx"
+           xmlns:fx="http://javafx.com/fxml"
+           fx:controller="main.controller.MenuController"
+           minHeight="600.0" minWidth="900.0">
+
+    <Rectangle fx:id="rectangle" height="600.0" width="900.0"/>
+
+    <VBox fx:id="vBox" alignment="CENTER" spacing="20">
+        <Button fx:id="newGame" text="NEW GAME" onMouseClicked="#newGame"/>
+        <Button fx:id="highScores" text="HIGH SCORES" onMouseClicked="#highScores"/>
+        <Button fx:id="exit" text="EXIT" onMouseClicked="#exit"/>
+    </VBox>
+
+</StackPane>
